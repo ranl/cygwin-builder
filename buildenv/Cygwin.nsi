@@ -36,6 +36,7 @@ Section "install"
   CreateShortCut "$DESKTOP\${PRODUCT_NAME}.lnk" "$INSTDIR\bin\mintty.exe" "-i /Cygwin-Terminal.ico -" "$INSTDIR\Cygwin-Terminal.ico" 0 SW_SHOWNORMAL "" "MyCygwin"
   
   ExecWait "$INSTDIR\7z\7z.exe x -y cygwin.zip"
+  ExecWait "$INSTDIR\bin\dos2unix.exe $INSTDIR\mycygwin_post_install.sh"
   ExecWait "$INSTDIR\bin\bash.exe -c /mycygwin_post_install.sh"
 SectionEnd
 

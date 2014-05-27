@@ -18,7 +18,7 @@ from collections import defaultdict
 from optparse import OptionParser
 
 # Settings
-MANDATORY_PKGS = ['cygrunsrv', 'openssh']
+MANDATORY_PKGS = ['cygrunsrv', 'openssh', 'dos2unix']
 MIRROR_LIST_URL  = 'https://cygwin.com/mirrors.lst'
 DEFAULT_SETTINGS = {
     'installer': 'http://cygwin.com/setup-x86_64.exe',
