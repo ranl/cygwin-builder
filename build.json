@@ -1,0 +1,14 @@
+{
+    "mirror": "http://mirror.isoc.org.il/pub/cygwin/",
+    "packages": [
+        "openssh",
+        "zip",
+        "vim",
+        "wget",
+        "rsync",
+        "curl",
+        "unzip",
+        "cygrunsrv",
+        "dos2unix"
+    ]
+}
