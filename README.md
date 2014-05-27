@@ -21,6 +21,8 @@ c:\python27\python.exe build.py --help
 c:\python27\python.exe build.py build.json
 ```
 
+# build.json
+
 ```json
 {
     "mirror": "http://mirror.isoc.org.il/pub/cygwin/",
@@ -30,6 +32,7 @@ c:\python27\python.exe build.py build.json
 }
 ```
 
+# build.json - override defaults
 ```json
 {
     "installer": "http://cygwin.com/setup-x86_64.exe",
