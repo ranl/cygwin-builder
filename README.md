@@ -4,11 +4,12 @@ cygwin-builder
 Generate windows installer for cygwin
 
 
-Requirements
-============
- - python 2.6 or 2.7 installed
- - an internet connection to one of the mirrors in https://cygwin.com/mirrors.lst
- - NSIS Installer installed
+Build Machine Requirements
+==========================
+ - Python 2.6 or 2.7
+ - An internet connection to one of the mirrors in https://cygwin.com/mirrors.lst
+ - NSIS >= 3.0 - http://nsis.sourceforge.net
+ - no requirements needed on the destination machine
 
 
 Examples
